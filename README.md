@@ -48,8 +48,6 @@ Source Code
    ↓
 Scanner (Lexer)
    ↓
-Tokens
-   ↓
 Parser
    ↓
 AST (Abstract Syntax Tree)
@@ -62,11 +60,10 @@ Program Output
 **Step Description:**
 
 1. **Scanner (Lexer):** Converts source code into a list of tokens (keywords, identifiers, symbols, numbers, strings).
-2. **Tokens:** The smallest meaningful units the parser can understand.
-3. **Parser:** Builds an **Abstract Syntax Tree (AST)** from the tokens according to German Lox grammar.
-4. **AST:** Represents the hierarchical structure of the program.
-5. **Interpreter:** Walks the AST, evaluating expressions and executing statements.
-6. **Program Output:** Prints results or errors in German to the console.
+2. **Parser:** Builds an **Abstract Syntax Tree (AST)** from the tokens according to German Lox grammar.
+3. **AST:** Represents the hierarchical structure of the program.
+4. **Interpreter:** Walks the AST, evaluating expressions and executing statements.
+5. **Program Output:** Prints results or errors in German to the console.
 
 ---
 
@@ -130,7 +127,7 @@ primary     → "true" | "false" | "nil"
 
 ---
 
-## Installation & Usage (Installation & Verwendung)
+## Installation & Usage
 
 ### Prerequisites
 
@@ -194,7 +191,7 @@ Hallo, Welt!
 
 ---
 
-## Built-in Functions (Eingebaute Funktionen)
+## Built-in Functions
 
 * `uhr()` – Returns current time in seconds (equivalent to English `clock()`)
 
@@ -211,6 +208,7 @@ Hallo, Welt!
 ## License
 
 This project is based on material from *Crafting Interpreters* by Bob Nystrom, licensed under CC BY-NC-SA 4.0. German localization modifications are also under the same license.
+You can find the book at the following link: https://craftinginterpreters.com/
 
 ---
 
