@@ -209,8 +209,3 @@ Hallo, Welt!
 
 This project is based on material from *Crafting Interpreters* by Bob Nystrom, licensed under CC BY-NC-SA 4.0. German localization modifications are also under the same license.
 You can find the book at the following link: https://craftinginterpreters.com/
-
----
-
-**Viel Spaß beim Programmieren auf Deutsch!** 🎉
-
